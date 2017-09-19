@@ -1,0 +1,23 @@
+{
+  "name": "zeeman/module-cli-test",
+  "description": "",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Erikt",
+      "email": "erik.timmers@kega.nl"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Erikt\\CliTest\\": ""
+    }
+  }
+}
